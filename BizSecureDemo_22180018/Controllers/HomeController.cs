@@ -1,10 +1,10 @@
-﻿using BizSecureDemo.Data;
+﻿using BizSecureDemo_22180018.Data;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
 
-namespace BizSecureDemo.Controllers;
+namespace BizSecureDemo_22180018.Controllers;
 
 [Authorize]
 public class HomeController : Controller

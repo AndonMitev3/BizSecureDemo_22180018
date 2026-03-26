@@ -1,7 +1,7 @@
 ﻿using BizSecureDemo_22180018.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace BizSecureDemo.Data;
+namespace BizSecureDemo_22180018.Data;
 
 public class AppDbContext : DbContext
 {

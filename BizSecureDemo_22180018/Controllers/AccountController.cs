@@ -1,5 +1,5 @@
 ﻿using System.Security.Claims;
-using BizSecureDemo.Data;
+using BizSecureDemo_22180018.Data;
 using BizSecureDemo_22180018.Models;
 using BizSecureDemo_22180018.ViewModels;
 using Microsoft.AspNetCore.Authentication;
@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.RateLimiting;
-namespace BizSecureDemo.Controllers;
+namespace BizSecureDemo_22180018.Controllers;
 
 public class AccountController : Controller
 {
